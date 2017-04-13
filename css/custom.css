@@ -1,0 +1,15 @@
+.y-diagonal-parallax-t {
+	margin-top: -230px;
+	padding-top: 430px;
+}
+
+.y-diagonal-parallax-b {
+	margin-bottom: -230px;
+	padding-bottom: 230px;
+}
+
+.my-photo {
+	max-width: 20%;
+    height: auto;
+    margin-bottom: 0em;
+}
