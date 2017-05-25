@@ -8,10 +8,11 @@
 	padding-bottom: 230px;
 }
 
-.my-photo {
+img.my-photo {
 	max-width: 25%;
     height: auto;
-    margin-bottom: 0em;
+    margin-top: -4em;
+    padding: 2em
 }
 
 .screens {
@@ -22,4 +23,21 @@
 .screens-reduce {
     max-width: 25%;
     height: auto;
+}
+
+.my-social {
+    font-size: 3em;
+    margin: 0.5em 0.1em 0;
+    padding: 0 20px;
+}
+
+.my-color {
+    color: #2CA6F0
+}
+
+.badges {
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }

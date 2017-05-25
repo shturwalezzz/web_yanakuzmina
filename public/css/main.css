@@ -427,12 +427,14 @@ blockquote.blockquote-large {
   text-decoration: none;
 }
 
-.tp--header .logo a img {
+.tp--header .logo a img,
+.tp--header .logo a svg {
   width: 170px;
   vertical-align: inherit;
 }
 
-.tp--header .logo a img.logo-dark {
+.tp--header .logo a img.logo-dark,
+.tp--header .logo a svg.logo-dark {
   display: none;
 }
 
@@ -1109,11 +1111,23 @@ blockquote.blockquote-large {
   width: 180px;
 }
 
-.tp--header-shrink.shrink .logo a img.logo-main {
+.tp--header-shrink.shrink .logo a img.logo-main,
+.tp--header-shrink.shrink .logo a svg.logo-main {
   display: none;
+  color: #ffffff !important;
+  fill: #fff;
 }
 
-.tp--header-shrink.shrink .logo a img.logo-dark {
+.logo .logo-main use {
+  fill: #fff;
+}
+
+.logo path {
+  fill: inherit;
+}
+
+.tp--header-shrink.shrink .logo a img.logo-dark,
+.tp--header-shrink.shrink .logo a svg.logo-dark  {
   display: inline-block;
 }
 
@@ -2218,7 +2232,7 @@ blockquote.blockquote-large {
 
 .tp--footer {
   background: white;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .tp--footer h2 {
